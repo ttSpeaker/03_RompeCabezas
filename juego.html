@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BMO Arcade</title>
+    <link rel="stylesheet" href="css/juego.css">
+    <script type="text/javascript" src="js/juego.js"></script>
+  </head>
+  <body>
+    <div class="col-40">
+
+      <div id="titulo">PUZZLE !!
+      </div>
+      <div id="instrucciones">Instrucciones
+        <ul id="lista-instrucciones">
+        </ul>
+      </div>
+      <div id="objetivo">
+        <p>Imagen final:</p>
+        <img src="images/final.png" alt="">
+
+      </div>
+      <div id="ultimo-mov">Último movimiento
+        <div id="flecha" class="texto-centrado"></div>
+      </div>
+      <div id="cantidadMovimientos">
+        Cantidad de movimientos:
+        <div id="numeroMovimientos">0</div>
+      </div>
+      <div id="mezclar-denuevo">
+           <button class="button" onclick="mezclarPiezas(50)">Mezclar</button>
+      </div>
+
+    </div>
+    <div class="col-60">
+      <div id="juego">
+        <div id="pieza1"><img src="images/10.jpg" alt=""></div>
+        <div id="pieza2"><img src="images/20.jpg" alt=""></div>
+        <div id="pieza3"><img src="images/30.jpg" alt=""></div>
+        <div id="pieza4"><img src="images/40.jpg" alt=""></div>
+        <div id="pieza5"><img src="images/50.jpg" alt=""></div>
+        <div id="pieza6"><img src="images/60.jpg" alt=""></div>
+        <div id="pieza7"><img src="images/70.jpg" alt=""></div>
+        <div id="pieza8"><img src="images/80.jpg" alt=""></div>
+        <div id="pieza9"><img src="" alt=""></div>
+      </div>
+    </div>
+    <div id="footer">
+
+    </div>
+    <script src="js/juego.js"></script>
+  </body>
+</html>
